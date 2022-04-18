@@ -1,3 +1,23 @@
+/** Importing fonts **/
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+   url("./assets/fonts/metropolis/Metropolis-Regular.otf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+  url("./assets/fonts/metropolis/Metropolis-SemiBold.otf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+  url("./assets/fonts/metropolis/Metropolis-Bold.otf") format("truetype");
+  font-weight: 700;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

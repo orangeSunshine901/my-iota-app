@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/**Global CSS file**/
+
+*, ::before, ::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Metropolis, "Helvetica Neue", Helvetica, Arial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/** Css color and font weight variables **/
+:root{
+    --primary-color: #FFF;
+    --secondary-color: #000000;
+    --teritiary-color: #0FC1B7;
+    --font-weight-primary: 400;
+    --font-weight-secondary: 600;
+    --font-weight-teritiary: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/** Utility classes **/
+.color-white{
+    color: var(--primary-color)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.color-black{
+    color: var(--secondary-color)
 }
 
-.App-link {
-  color: #61dafb;
+.color-ltgrey{
+    color: #F6F8FB;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.color-dgrey{
+    color: #485776; 
+}
+
+.color-green{
+    color:var(--teritiary-color);
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-semibold{
+    font-weight: 600;
+}
+
+.font-bold{
+    font-weight:700;
+}
+
+.font-large{
+    font-size: 36px;
+}
+
+.font-small{
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+}
+
+.section-heading{
+    line-height: 35px;
+    letter-spacing: -1px;
 }

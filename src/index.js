@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./assets/fonts/metropolis/Metropolis-Regular.otf"
+import "./assets/fonts/metropolis/Metropolis-SemiBold.otf"
+import "./assets/fonts/metropolis/Metropolis-Bold.otf"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
